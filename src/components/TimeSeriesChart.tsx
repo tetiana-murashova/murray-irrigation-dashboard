@@ -18,12 +18,10 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-
 import { Line } from "react-chartjs-2";
-
 import { format } from "date-fns";
-
 import zoomPlugin from "chartjs-plugin-zoom";
+
 ChartJS.register(
   LineElement,
   CategoryScale,
